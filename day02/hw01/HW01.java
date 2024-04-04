@@ -1,9 +1,9 @@
-package day02;
+package day02.hw01;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Q01 {
+public class HW01 {
     public static void main(String[] args) {
         // 사람 생성
         Person sonny = new Person("쏘니", "한국");
@@ -32,10 +32,8 @@ public class Q01 {
         // 핸드폰 키기
         sonny.turnOnPhone();
 
-
         // 핸드폰 키기
         baeckam.turnOnPhone();
-
 
         // 상점 핸드폰 리스트
         kt.printPhoneList();

@@ -5,9 +5,19 @@ class Person {
     String country;
     Phone phone;
 
+    public Person(String name) {
+        this.name = name;
+    }
+
     public Person(String name, String country) {
         this.name = name;
         this.country = country;
+    }
+
+    public Person(String name, String country, Phone phone) {
+        this.name = name;
+        this.country = country;
+        this.phone = phone;
     }
 
     void buyPhone(Phone phone) {
